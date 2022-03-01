@@ -723,8 +723,7 @@ checksum = "0c87e182de0887fd5361989c677c4e8f5000cd9491d6d563161a8f3a5519fc7f"
 [[package]]
 name = "dav1d"
 version = "0.7.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9f31455daf4c299ff51191482db319c556b3b0afc3deced5331ab3359c898fe5"
+source = "git+https://github.com/aeikum/dav1d-rs?branch=proton_7.0#ba912a96d2e24a1f5f7da43f625d635299a2ea5a"
 dependencies = [
  "dav1d-sys",
 ]
@@ -732,8 +731,7 @@ dependencies = [
 [[package]]
 name = "dav1d-sys"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b3cc7ff2ad3b5a27f98378e646c3afa851ffce6277664b35b0b10b0d28f617a1"
+source = "git+https://github.com/aeikum/dav1d-rs?branch=proton_7.0#ba912a96d2e24a1f5f7da43f625d635299a2ea5a"
 dependencies = [
  "bindgen",
  "system-deps 6.0.2",
